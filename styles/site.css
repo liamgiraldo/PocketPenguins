@@ -10,6 +10,16 @@ body{
     color: #333333;
     -webkit-font-smoothing: antialiased;
 }
+a{
+    color: #007ba7;
+    margin: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+a:hover{
+    cursor:pointer;
+}
 .page{
     display:flex;
     flex-direction: column;
@@ -254,16 +264,6 @@ footer{
     border-left: 0;
     border-width: 1px;
     padding-bottom: 3px;
-}
-a{
-    color: #007ba7;
-    margin: auto;
-    margin-right: 5px;
-    margin-left: 5px;
-    font-weight: bold;
-}
-a:hover{
-    cursor:pointer;
 }
 .rightline{
     border-style: solid;
