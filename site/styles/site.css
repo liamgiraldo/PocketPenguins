@@ -7,6 +7,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
+    color: #333333;
     -webkit-font-smoothing: antialiased;
 }
 .page{
@@ -52,6 +53,9 @@ header{
     margin-right:  auto;
     margin-left: 10px;
 }
+.mainlogo:hover{
+    cursor: pointer;
+}
 .header-right{
     margin: 10px;
     display:flex;
@@ -70,6 +74,7 @@ header{
     1px 1px 0 #00043a,
     1px -1px 0 #00043a,
     -1px -1px 0 #00043a;
+    text-decoration: none;
 }
 .header-right .top:hover{
     cursor:pointer;
@@ -148,6 +153,12 @@ header{
     padding: 5px;
     border-radius: 15px;
 }
+.center{
+    margin: auto;
+}
+.nounderline{
+    text-decoration: none;
+}
 .chatnowbox{
     display: flex;
     flex-direction: row;
@@ -166,6 +177,7 @@ header{
     box-shadow: 1px 2px 4px 0px #43bde8,
     inset 4px 1px 14px 0px #31bcf2;
 }
+
 .chatnowbox:hover{
     cursor:pointer;
     background-color: #006699;
@@ -248,6 +260,7 @@ a{
     margin: auto;
     margin-right: 5px;
     margin-left: 5px;
+    font-weight: bold;
 }
 a:hover{
     cursor:pointer;
@@ -260,4 +273,17 @@ a:hover{
     border-bottom: 0;
     border-color: #CCCCCC;
     padding-right: 10px;
+}
+.chatappembed{
+    margin-top: 20px;
+    height: 360px;
+    background-color: #E9E9E9;
+    margin-left:0;
+    margin-right: 0;
+}
+.centeredtext{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
 }
